@@ -7,7 +7,7 @@ public class Move : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        transform.position = new Vector3(5,2,7);
     }
 
     // Update is called once per frame
