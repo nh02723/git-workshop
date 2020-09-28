@@ -23,6 +23,7 @@ public class Move : MonoBehaviour
             transform.Translate(Vector3.right * Time.deltaTime);
         }
         if (Input.GetKey(KeyCode.S)){
+            transform.Translate(Vector3.right * Time.deltaTime);
             transform.Translate(Vector3.down * Time.deltaTime);
         }
     }
